@@ -4,17 +4,17 @@ Install all package.json
 ADD .env file:
 
 
-MONGODB_URL = '...'
+MONGODB_URL = '...' <space><space>
 
-CLOUD_API_KEY = '...'
-CLOUD_API_SECRET = '...'
-CLOUD_NAME = '...'
+CLOUD_API_KEY = '...' <space><space>
+CLOUD_API_SECRET = '...' <space><space>
+CLOUD_NAME = '...' <space><space>
 
 
-REFRESH_TOKEN_SECRET = '...'
-ACCESS_TOKEN_SECRET = '...'
-
-run server: npm start
+REFRESH_TOKEN_SECRET = '...' <space><space>
+ACCESS_TOKEN_SECRET = '...' <space><space>
+ 
+run server: npm start <space><space>
 run client : cd shoppee && npm start
 
 
