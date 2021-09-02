@@ -31,3 +31,5 @@ run client : cd shoppee && npm start
 
 DEMO at: <https://www.w3schools.com/>
 
+Front-end: design by myselt
+Back-end : from Dev A.T youtube channel. But i fixed to relevant with my project
