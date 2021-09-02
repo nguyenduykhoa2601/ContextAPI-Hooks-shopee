@@ -1,0 +1,96 @@
+@import url('../../../../App.css');
+.home__controls-products{
+    background-color: rgba(255,95,50,0.05);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    animation-name: animateRightToLeft;
+    animation-duration: 2s;
+}
+.home__controls-filter{
+    display: flex;
+    align-items: center;
+   
+}
+.home__controls-title{
+    font-size: 1.6rem;
+    margin-left: 15px;
+}
+.home__controls-btn{
+    font-size: 1.5rem;
+    padding: 6px 14px;
+    margin-left: 10px;
+    color: var(--text-color);
+    border: none;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    font-weight: 400;
+    cursor: pointer;
+}
+.home__controls-btn--active{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.filter__price{
+    background-color: var(--white-color);
+    width: 200px;
+    margin-left: 10px;
+    padding: 6px 14px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 4px;
+}
+.filter__price:focus{
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+
+.filter__price-item{
+    padding: 0 14px;
+    display: flex; 
+    justify-content: space-between;
+}
+.filter__price-item:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.home__controls-pages{
+    display: flex;
+    margin-right: 14px;
+    align-items: center;
+}
+
+.home__control-nav-page{
+    display: flex;
+}
+.home__control-total-pages{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.current-page{
+    color: var(--primary-color)
+}
+.undo-page,
+.next-page{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white-color);
+    text-align: center;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.undo-page i,
+.next-page i{
+    align-items: center;
+    margin: auto;
+}
+.undo-page--disable {
+    opacity: 0.3;
+    cursor: default;
+}

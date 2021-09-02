@@ -1,0 +1,176 @@
+@import url('../../../App.css');
+
+.history{
+    margin-top: 30px;
+    padding-bottom: 100px;
+    border-bottom: 4px solid var(--primary-color);
+}
+.history-heading{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.filter{
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+.history-filter{
+    margin-top: 30px;
+    width: 20%;
+    font-size: 1.4rem; 
+    text-align: center;
+    position: absolute;
+    right: -5%;
+}
+.history-detail{
+    width: 100%;
+    margin-top: 50px;
+    line-height: 1.8rem;
+}
+thead .title td{
+    font-size: 1.5rem;
+    padding: 10px 6px;
+    text-align: center;
+    border-left: 1px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+thead .title .STT{
+    width: 4.16%;
+ 
+}
+thead .title .address{
+    width: 16.6%;
+}
+thead .title .infor__contact{
+    width: 16.6%;
+}
+thead .title .detail__order{
+    width: 25%;
+}
+thead .title .more__requirement{
+    border-right: 1px solid var(--primary-color);
+}
+
+.line{
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.history__order td{
+    border-left: 1px solid #ccc;
+}
+.history__order--confirm{
+    background-color: rgb(245, 219, 219);
+}
+.history__oridinal{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+}
+.history__address{
+    font-size: 1.4rem;
+    padding: 0 5px 0 8px;
+}
+.history__contact{
+    font-size: 1.4rem;
+}
+.history__time,
+.history__phone,
+.history__enabletime{
+    padding: 10px 6px;
+}
+.history__time span,
+.history__phone span,
+.history__enabletime span{
+    text-transform: uppercase;
+    font-weight: 500;
+    color : rgb(240, 140, 83)
+}
+.history__order-item{
+    display: flex;
+    margin-top: 10px;
+}
+
+.history__order-img{
+    width: 50%;
+    padding: 10px 12px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+.history__order-desc{
+    display: block;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+.history__order-title{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    padding: 6px 0;
+}
+.history__order-total{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color)
+}
+.history__order-requirement{
+    font-size: 1.4rem;
+    padding: 0 5px 0 8px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.action__confirm{
+    text-align: center;
+}
+.confirmed{
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.action__confirm-delete{
+    padding: 6px 10px;  
+    border-radius: 2px;
+    border:none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--white-color)
+}
+.action__confirm-confirmed,
+.action__confirm-unconfirmed{
+    padding: 6px 12px;
+    margin-top: 10px;
+    border:none;
+    cursor: pointer;
+    color: var(--white-color)
+}
+.action__confirm-unconfirmed{
+    background-color: greenyellow;
+}
+.action__confirm-confirmed{
+    background-color: blue;
+}
+.confirm{
+    padding: 6px 10px;  
+    border-radius: 2px;
+    border:none;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: var(--white-color)
+}
+.history__user{
+    font-size: 1.4rem;
+}
+.user__name{
+    padding: 10px 5px;
+}
+.user__email,
+.user__requirement{
+    padding: 0 5px;
+}
+.user__email span,
+.user__requirement span,
+.user__name span{
+    color:  rgb(240, 140, 83);
+    font-weight: 500;
+}

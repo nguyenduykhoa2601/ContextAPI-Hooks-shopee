@@ -1,0 +1,77 @@
+@import url('../../App.css');
+.footer{
+    margin: 30px;
+}
+.footer__customer,
+.footer__payment{
+    display: block;
+    padding: 6px;
+}
+.footer__customer-heading,
+.footer__payment-heading,
+.footer__follow-heading,
+.footer__download-heading{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #7e7e7e;
+    font-weight: 500;
+    padding: 6px 0 15px;
+}
+.footer__customer-list{
+    list-style: none;
+}
+.footer__custormer-item{
+    font-size: 1.3rem;
+    color: #aca9a9;
+    padding: 6px 0;
+    font-weight: 400;
+}
+.footer__custormer-item:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.footer__payment-list{
+    display: block;
+    list-style: none;
+}
+.footer__payment-item{
+    display: flex;
+}
+.footer__payment-img{
+    width: 60px;
+    padding: 0;
+    margin: 0;
+}
+.footer__follow-list{
+    display: block;
+    list-style: none;
+}
+.footer__follow-item{
+    font-size: 1.3rem;
+    padding: 6px 0;
+}
+.follow__item-link{
+    text-decoration: none;
+    color: #aca9a9;;
+}
+.follow__item-link i{
+    color: var(--text-color);
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.follow__item-link:hover,.follow__item-link i:hover{
+    cursor: pointer;
+    color: var(--primary-color  )
+}
+.footer__download-link{
+    display: flex;
+}
+.QRCode{
+    width: 50%;
+}
+.download-apps img{
+    margin-top: 7px;
+    width: 70%;
+    cursor: pointer;
+}

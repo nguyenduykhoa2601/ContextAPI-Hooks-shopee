@@ -1,0 +1,13 @@
+@import url('../../../App.css');
+.static{
+    margin-top: 30px;
+    padding-bottom: 100px;
+    border-bottom: 4px solid var(--primary-color);
+}
+.title__bar,
+.title__line{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0;
+}

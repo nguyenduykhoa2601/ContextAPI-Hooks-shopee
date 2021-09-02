@@ -1,0 +1,190 @@
+@import url('../../../../App.css');
+.Login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.Login-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px var(--primary-color);
+    margin-left: 30px;
+}
+
+.Login-form h3 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.Login-input {
+    min-height: 30px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-size: 1.2rem;
+    border: 0.5px solid #ccc;
+}
+
+.Login___btn-submit {
+    max-width: 100%;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 1.4rem;
+    padding: 7px 0;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Login-form__footer {
+    border-top: 2px solid #ccc;
+    max-width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.Login-policy {
+    max-width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 10px;
+}
+
+.policy-link {
+    color: var(--primary-color)
+}
+
+.redirect__login {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 15px 10px;
+}
+
+.redirect__login span {
+    color: rgb(167, 167, 167);
+    font-weight: 400;
+}
+
+.redirect__login-link {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+.Login__logo {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+   align-items: center;
+   overflow: hidden;
+    
+}
+
+.Login__logo img {
+    width: 200px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    animation: none;
+    height: 250px;
+
+}
+
+.Login__logo-text {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.Login__logo-text-after {
+    color: rgb(255, 81, 0)
+}
+
+.Login__logo div {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.Login__logo div:nth-child(1) {
+    animation: showup 7s infinite;
+}
+
+.Login__logo div:nth-child(2) {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+.Login__logo div:nth-child(2) span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -1000px;
+    }
+    20% {
+        margin-left: -1000px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+    30% {
+        width: 350px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 350px;
+    }
+}

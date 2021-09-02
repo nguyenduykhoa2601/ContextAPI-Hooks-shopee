@@ -1,0 +1,55 @@
+@import url('../../../../App.css');
+
+.not-found{
+    padding-bottom: 200px;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.not-found__heading{
+    
+    font-size: 6rem;
+
+    font-weight: 700;
+    color: var(--primary-color)
+}
+.not-found__page img{
+    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+}
+.not-found__page{
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+}
+.not-found__page div{
+    margin-left: 30px;
+}
+.not-found__text{
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #666
+}
+.not-found__text i{
+    color: rgb(245, 130, 130);
+    font-size: 1.8rem;
+}
+.not-found__redirect{
+    margin-top: 30px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--primary-color);
+}
+.not-found__redirect:hover{
+    background-color: rgb(243, 127, 127);
+    transform: translateY(-3px);
+}
+.not-found__link{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgb(224, 219, 219);
+    background-color: transparent;
+}

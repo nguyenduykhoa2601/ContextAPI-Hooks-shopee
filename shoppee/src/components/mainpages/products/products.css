@@ -1,0 +1,109 @@
+@import url('../../../App.css');
+.container{
+    background-color: rgb(245,245,245);
+    padding-bottom: 80px;
+    border-bottom: 3px solid var(--primary-color);
+
+}
+
+.menu{
+    margin-top: 20px;
+    background-color: var(--white-color);
+    animation-name: animateLeftToRight;
+    animation-duration: 2s;
+}
+.menu__heading{
+    font-size: 1.8rem;
+    padding: 10px 12px;
+    border-bottom: 3px solid #ccc;
+    font-weight: 700;
+}
+.menu__heading i {
+    margin-right: 10px;
+    font-size: 1.4rem;
+}
+
+.menu__list-categorioes{
+    display: block;
+    list-style: none;
+    margin-top: 6px;
+    position: relative;
+}
+.menu__category{
+    position: relative;
+    padding: 10px 0 10px 30px ;
+    font-size: 1.5rem;
+    display: block;
+    text-transform: uppercase;
+   
+}
+.menu__category-link:hover{
+    color: var(--primary-color);
+    right: -4px;
+    cursor: pointer;
+}
+.menu__category-link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500; 
+    position: relative;
+    transition: right linear 0.2s;
+}
+.menu__category--active{
+    position: relative;
+    display: block;
+}
+
+.menu__category--active .menu__category-link::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: -10px;
+    border-width: 4px 4px;
+    border-style: solid;    
+    border-color: transparent transparent transparent var(--primary-color);
+}
+.menu__category--active .menu__category-link{
+    color: var(--primary-color);
+}
+
+
+.home__products{
+    list-style: none;
+    background-color: var(--white-color);
+}
+.grid__column-item-2{
+    height: 330px;
+    background-color: var(--white-color);
+    margin-top: 40px;
+    position: relative;
+    animation-name: animateRightToLeft;
+    animation-duration: 2s;
+}
+.grid__column-item-2:hover{
+    transform: translateY(-4px);
+    opacity: 0.95;
+}
+.pages{
+    margin-top: 50px;
+  
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pages__load-more{
+    padding: 7px 15px;
+    font-size: 1.6rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.pages__load-more:hover{
+
+    opacity: 0.8;
+}
+
+    
