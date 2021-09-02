@@ -4,7 +4,8 @@ Install all package.json
 ADD .env file:
 
 
-MONGODB_URL = '...' <space><space>
+MONGODB_URL = '...' 
+<space><space>
 
 CLOUD_API_KEY = '...' <space><space>
 CLOUD_API_SECRET = '...' <space><space>
