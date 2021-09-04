@@ -29,7 +29,7 @@ run client : cd shoppee && npm start
 
 
 
-DEMO at: <https://www.w3schools.com/>
+DEMO at: <https://www.youtube.com/watch?v=3RElbzCL_sM&t=15s&ab_channel=KhoaNguyen/>
 
 Front-end: design by myselt
 Back-end : from Dev A.T youtube channel. But i fixed to relevant with my project
